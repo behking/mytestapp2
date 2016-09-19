@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Vang.materialDesign.iml" filepath="$PROJECT_DIR$/Vang.materialDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vang (1).materialDesign2.iml" filepath="$PROJECT_DIR$/Vang (1).materialDesign2.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbinspector-3.2.3/dbinspector-3.2.3.iml" filepath="$PROJECT_DIR$/dbinspector-3.2.3/dbinspector-3.2.3.iml" />
     </modules>
   </component>
 </project>

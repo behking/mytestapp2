@@ -11,4 +11,34 @@
     <string name="drawer_header_text">Drawer Header</string>
     <string name="second_activity_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur diam id aliquam scelerisque. Donec ultrices lacus vel dignissim pharetra. Vivamus pharetra augue quis rhoncus placerat. Sed ultricies at risus non cursus. Nam rutrum leo nec placerat consectetur. Vestibulum feugiat eleifend diam, nec interdum augue tincidunt sit amet. Praesent feugiat est auctor lacus consectetur, vitae pellentesque dolor laoreet.</string>
     <string name="title_activity_second">SecondActivity</string>
+    <string name="action_search">Search ... .</string>
+
+
+    <string name="start">آغاز </string>
+    <string name="pause">توقف </string>
+    <string name="delete"> حذف فایل</string>
+
+    <!--<string name="del_cache_files">Delete all downloaded files</string>-->
+    <!--<string name="del_file_error_empty">Empty folder already</string>-->
+
+    <!--<string name="single_task_test_title">Single task test</string>-->
+    <!--<string name="performance_test_title">Performance test</string>-->
+    <!--<string name="performance_test_parcel">100000(times) Basic performance test</string>-->
+    <!--<string name="performance_test_output">Output performance test</string>-->
+
+
+    <string name="tasks_manager_demo_title">Tasks Manager Demo</string>
+    <string name="tasks_manager_demo_name" formatted="false">task: %d</string>
+    <string name="tasks_manager_demo_status_loading">وضعیت : درحال بارگزاری ...</string>
+    <string name="tasks_manager_demo_status_pending"> وضعیت :انتظار</string>
+    <string name="tasks_manager_demo_status_started">وضعیت : آغاز دانلود </string>
+    <string name="tasks_manager_demo_status_connected"> وضعیت :متصل </string>
+    <string name="tasks_manager_demo_status_progress">وضعیت : .... </string>
+    <string name="tasks_manager_demo_status_downloading" formatted="false">Status: downloading %d</string>
+    <string name="tasks_manager_demo_status_error">وضعیت : خطا </string>
+    <string name="tasks_manager_demo_status_paused">وضعیت : توقف </string>
+    <string name="tasks_manager_demo_status_completed"> وضعیت : پایان دانلود </string>
+    <string name="tasks_manager_demo_status_not_downloaded">وضعیت : دانلود نشده </string>
+    <string name="no_data_available">empty_recycler</string>
+    <string name="empty_item_message">emmpttyyy</string>
 </resources>

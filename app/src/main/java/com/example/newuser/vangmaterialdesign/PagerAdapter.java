@@ -7,11 +7,13 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.util.SparseArray;
 import android.view.ViewGroup;
 
+
+
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 
 /**
- * Created by new user on 8/5/2016.
+ * Fragmentstatepageradapter
  */
 public class PagerAdapter extends FragmentStatePagerAdapter {
     private final SparseArray<WeakReference<Fragment>> instantiatedFragments = new SparseArray<>();
@@ -23,16 +25,18 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-
+//        FragA tab1;
+        FragB tab2;
+        FragC tab3;
         switch (position) {
+//            case 0:
+//                 tab1 = new FragA();
+//                return tab1;
             case 0:
-                FragA tab1 = new FragA();
-                return tab1;
-            case 1:
-                FragB tab2 = new FragB();
+                 tab2 = new FragB();
                 return tab2;
-            case 2:
-                FragC tab3 = new FragC();
+            case 1:
+                 tab3 = new FragC();
                 return tab3;
             default:
                 return null;
@@ -47,7 +51,8 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
     @Override
     public CharSequence getPageTitle(int position) {
 
-        return mTabHeader.get(position);
+//        return mTabHeader.get(position);
+        return null;
     }
     @Override
     public Object instantiateItem(final ViewGroup container, final int position) {
